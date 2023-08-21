@@ -1,0 +1,66 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  cursor: url("/dist/assets/cursor.png"), auto;
+}
+
+.animate-spin2 {
+  animation: spin 1s linear infinite;
+}
+
+a#home {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+
+a#about {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+a#tokenomics {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+a#utility {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+a#roadmap {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+a#howtobuy {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+.font-1 {
+  font-family: "Architects Daughter", cursive;
+}
+
+#myVideo {
+  position: fixed;
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
