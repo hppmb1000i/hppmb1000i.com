@@ -16,11 +16,13 @@
   </head>
 
   <body>
-    <div>
+    <div class="">
       <nav
-        class="fixed w-full z-20 top-0 border-b border-yellow-300 dark:border-gray-600 dark:bg-opacity-95"
+        class="fixed w-full z-20 top-0 left-0 border-b border-yellow-300 dark:border-gray-600 dark:bg-opacity-95"
       >
-        <div class="flex flex-wrap items-center justify-between p-4">
+        <div
+          class="flex flex-wrap items-center justify-between mx-auto p-4 max-w-screen-xl"
+        >
           <a href="#home" class="flex items-center">
             <img
               src="assets/logo.png"
@@ -69,7 +71,7 @@
               <li>
                 <a
                   href="#about"
-                  class="bg-green-500 block font-extrabold py-2 pl-5 mr-44 pr-4 border-4 mt-5 border-red-600 rounded-xl lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent text-yellow-400"
+                  class="block font-extrabold py-2 pl-3 pr-4 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 text-yellow-400"
                   >$USD</a
                 >
               </li>
@@ -77,7 +79,7 @@
               <li>
                 <a
                   href="#roadmap"
-                  class="block font-extrabold py-2 pl-3 mr-64 lg:text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700 border-2 bg-yellow-400 mb-6"
+                  class="block font-extrabold py-2 pl-3 pr-4 lg:text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >Roadmap (Soon)</a
                 >
               </li>
@@ -88,6 +90,12 @@
                   >Binance (Soon)</a
                 >
               </li>
+
+              <img
+                src="assets/logo.png"
+                class="h-10 mr-3 animate-spin2"
+                alt="Logo"
+              />
             </ul>
           </div>
         </div>
@@ -95,46 +103,21 @@
       <!--Section1-->
       <a id="home"></a>
 
-      <div class="">
+      <div class="mx-auto px-5 md:px-16">
         <video autoplay muted loop id="myVideo" class="z-0 bg-cover">
-          <source src="assets/editez3x.mp4" type="video/mp4" />
+          <source src="assets/editez.mp4" type="video/mp4" />
         </video>
 
-        <div class="grid lg:border-x border-b pb-32 pt-20">
+        <div
+          class="mx-auto grid md:grid-cols-12 place-self-center lg:border-x border-b pb-32 pt-40 mt-64"
+        >
           <div
-            class="block md:col-span-7 text-6xl font-1 mx-auto tracking-tight z-50"
+            class="block md:col-span-7 text-6xl font-1 md:ml-6 mx-auto tracking-tight z-50"
           >
-            <div class="mb-36 border-4 border-blue-700 h-screen mx-10">
-              <div class="container">
-                <div class="wrapper">
-                  <img src="/dist/assets/meme1.jpg" />
-                  <img src="/dist/assets/meme2.jpg" />
-                  <img src="/dist/assets/meme3.jpg" />
-                </div>
-              </div>
-              <div class="container2">
-                <div class="wrapper2">
-                  <img src="/dist/assets/meme2.jpg" />
-                  <img src="/dist/assets/meme3.jpg" />
-                </div>
-              </div>
-              <div>
-                <img
-                  src="/dist/assets/moneyprinter.gif"
-                  alt=""
-                  class="moneyprinter h-52 w-80"
-                />
-              </div>
-              <div>
-                <video autoplay muted loop class="z-0 bg-cover meme45">
-                  <source src="assets/meme5.mp4" type="video/mp4" />
-                </video>
-              </div>
-            </div>
             <!--Section1-->
             <div class="mx-7 mb-14 text-center text-white">
               <p
-                class="text-4xl font-1 font-bold text-transparent bg-clip-text text-white mb-8"
+                class="text-8xl font-1 font-bold text-transparent bg-clip-text text-white mb-8"
               >
                 HarryPotterPowellMrBeast1000Inu
               </p>
@@ -193,7 +176,9 @@
                 </a>
               </div>
 
-              <div class="text-lg mt-6 mx-10 items-center rounded-3xl">
+              <div
+                class="grid grid-cols-4 text-lg mt-6 mx-10 p-3 items-center rounded-3xl"
+              >
                 <div class="col-span-3 mr-4 bg-gradient-to-r rounded-xl">
                   <input
                     class="bg-black w-full bg-opacity-50 border-slate-950 rounded-xl text-center py-1 px-2 mr-2 text-white text-opacity-80"
@@ -297,12 +282,6 @@
                   carrying the secrets of the celestial journey to those willing
                   to listen, to explore, and to embrace the boundless wonder of
                   existence.
-                </div>
-                <div
-                  class="bg-black text-center text-red-700 text-6xl border-2 border-white p-10 tracking-widest"
-                >
-                  We are not associated with riley Reid, Mr Beast, Jreome Powell
-                  or any other figure represented on this beatiful webpage
                 </div>
               </div>
             </div>
