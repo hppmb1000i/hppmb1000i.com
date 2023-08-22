@@ -69,16 +69,17 @@ a#howtobuy {
   max-width: 60vmin;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 40%;
-  left: 16%;
+  top: 30%;
+  left: 22%;
   overflow: hidden;
 
   border-radius: 8px;
 }
 .wrapper {
   width: 100%;
+  height: 100%;
   display: flex;
-  animation: slide 16s infinite;
+  animation: slide 2s infinite;
 }
 @keyframes slide {
   0% {
@@ -108,6 +109,8 @@ a#howtobuy {
 }
 img {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container2 {
@@ -123,9 +126,41 @@ img {
 .wrapper2 {
   width: 100%;
   display: flex;
-  animation: slide 6s infinite;
+  animation: slide 4s infinite;
 }
 
+.container3 {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.wrapper3 {
+  width: 20%;
+  display: flex;
+  animation: slide 0.4s infinite;
+}
+
+.container4 {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  padding-left: 75%;
+  overflow: hidden;
+
+  border-radius: 8px;
+}
+.wrapper4 {
+  width: 130px;
+  display: flex;
+  animation: slide 3s infinite;
+}
 #meme5 {
   position: absolute;
 
@@ -148,4 +183,68 @@ img {
 
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+}
+
+.gif1 {
+  max-width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 80%;
+
+  overflow: hidden;
+  z-index: 60;
+
+  border-radius: 8px;
+}
+
+.gif2 {
+  max-width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 83%;
+  left: 12%;
+
+  overflow: hidden;
+  z-index: 60;
+
+  border-radius: 8px;
+}
+
+.gif3 {
+  max-width: 60vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 22%;
+  left: 45%;
+
+  overflow: hidden;
+  z-index: 60;
+
+  border-radius: 8px;
+}
+.gif4 {
+  max-width: 44vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 62%;
+  left: 55%;
+
+  overflow: hidden;
+  z-index: 60;
+
+  border-radius: 8px;
+}
+
+.gif5 {
+  max-width: 44vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 20%;
+
+  overflow: hidden;
+  z-index: 60;
+
+  border-radius: 8px;
 }
