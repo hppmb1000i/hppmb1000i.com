@@ -135,3 +135,17 @@ img {
   min-height: 100%;
   object-fit: cover;
 }
+
+#topbtn {
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
