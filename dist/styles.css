@@ -66,7 +66,7 @@ a#howtobuy {
 }
 
 .container {
-  width: 60vmin;
+  max-width: 60vmin;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 40%;
@@ -112,7 +112,7 @@ img {
 }
 
 .container2 {
-  width: 40vmin;
+  max-width: 40vmin;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 40%;
@@ -129,18 +129,7 @@ img {
 }
 
 .moneyprinter {
-  width: 40vmin;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 90%;
-  left: 90%;
-  overflow: hidden;
-
-  border-radius: 8px;
-  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
-}
-.moneyprinter {
-  width: 40vmin;
+  max-width: 40vmin;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 90%;
