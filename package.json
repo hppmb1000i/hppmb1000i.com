@@ -1,5 +1,5 @@
 {
-  "name": "shitcoinmaster69.github.io",
+  "name": "ser1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShitCoinMaster69/shitcoinmaster69.github.io.git"
+    "url": "git+https://github.com/ser43.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShitCoinMaster69/shitcoinmaster69.github.io/issues"
+    "url": "https://github.com/ser35.github.io/issues"
   },
-  "homepage": "https://github.com/ShitCoinMaster69/shitcoinmaster69.github.io#readme",
+  "homepage": "https://github.com/retzd.github.io#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   }
