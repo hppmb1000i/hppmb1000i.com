@@ -1130,6 +1130,14 @@ video {
   font-weight: 800;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .tracking-tight {
   letter-spacing: -0.025em;
 }
