@@ -120,24 +120,11 @@ img {
   overflow: hidden;
 
   border-radius: 8px;
-  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
 }
 .wrapper2 {
   width: 100%;
   display: flex;
   animation: slide 6s infinite;
-}
-
-.moneyprinter {
-  max-width: 40vmin;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 90%;
-  left: 90%;
-  overflow: hidden;
-
-  border-radius: 8px;
-  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
 }
 
 #meme5 {
