@@ -697,6 +697,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -751,6 +759,10 @@ video {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .max-h-fit {
@@ -1052,6 +1064,10 @@ video {
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
