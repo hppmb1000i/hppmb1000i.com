@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -160,3 +161,167 @@ img {
   min-height: 100%;
   object-fit: cover;
 }
+=======
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  cursor: url("/dist/assets/cursor.png"), auto;
+}
+
+.animate-spin2 {
+  animation: spin 1s linear infinite;
+}
+
+a#home {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+
+a#about {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+a#tokenomics {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+a#utility {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+a#roadmap {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+a#howtobuy {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+.font-1 {
+  font-family: "Architects Daughter", cursive;
+}
+
+#myVideo {
+  position: fixed;
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 60vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 16%;
+  overflow: hidden;
+
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+img {
+  width: 100%;
+}
+
+.container2 {
+  width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 70%;
+  overflow: hidden;
+
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+.wrapper2 {
+  width: 100%;
+  display: flex;
+  animation: slide 6s infinite;
+}
+
+.moneyprinter {
+  width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 90%;
+  overflow: hidden;
+
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+.moneyprinter {
+  width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 90%;
+  overflow: hidden;
+
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+
+#meme5 {
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+>>>>>>> Stashed changes

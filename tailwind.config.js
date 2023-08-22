@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./dist/*.{html,js}"],
@@ -6,3 +7,13 @@ module.exports = {
   },
   plugins: [],
 };
+=======
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./dist/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+>>>>>>> Stashed changes

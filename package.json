@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "name": "ser1",
   "version": "1.0.0",
@@ -21,3 +22,28 @@
     "tailwindcss": "^3.3.2"
   }
 }
+=======
+{
+  "name": "ser1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ser43.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ser35.github.io/issues"
+  },
+  "homepage": "https://github.com/retzd.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
+>>>>>>> Stashed changes
