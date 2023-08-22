@@ -96,9 +96,13 @@
       <!--Section1-->
       <a id="home"></a>
       <div class="mx-auto align-bottom">
-        <audio controls autoplay loop class="z-50 fixed w-32" id="topbtn">
-          <source src="assets/music.mp3" type="audio/mpeg" />
-        </audio>
+        <iframe
+          src="assets/music.mp3"
+          allow="autoplay"
+          style="display: none"
+          id="iframeAudio"
+        >
+        </iframe>
       </div>
       <div>
         <video autoplay muted loop id="myVideo" class="z-0 bg-cover">
