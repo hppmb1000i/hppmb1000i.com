@@ -753,6 +753,25 @@ video {
   height: 8rem;
 }
 
+.max-h-fit {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-max {
+  min-height: -moz-max-content;
+  min-height: max-content;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -1029,6 +1048,10 @@ video {
 
 .pr-72 {
   padding-right: 18rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .text-center {
